@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql:///testdb
+    driver-class-name: org.postgresql.Driver
+  flyway:
+    enabled: true
+    check-location: true
+    locations: filesystem:FlywayModule\src\main\resources\db\migration
+    default-schema: migration_test
+    schemas: migration_test
