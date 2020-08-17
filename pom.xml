@@ -21,8 +21,8 @@
     </properties>
 
     <modules>
-        <module>FlywayModule</module>
         <module>endpoint</module>
+        <module>migration</module>
     </modules>
 
     <dependencies>
@@ -68,7 +68,7 @@
                     </schemas>
                     <tablespace>tables</tablespace>
                     <baselineOnMigrate>true</baselineOnMigrate>
-                    <workingDirectory>FlywayModule</workingDirectory>
+                    <workingDirectory>migration</workingDirectory>
                 </configuration>
 
             </plugin>

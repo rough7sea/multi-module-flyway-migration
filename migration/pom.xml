@@ -10,7 +10,7 @@
         <version>1.0</version>
     </parent>
 
-    <artifactId>FlywayModule</artifactId>
+    <artifactId>migration</artifactId>
 
     <build>
         <plugins>

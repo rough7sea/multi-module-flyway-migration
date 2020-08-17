@@ -7,6 +7,6 @@ spring:
   flyway:
     enabled: true
     check-location: true
-    locations: filesystem:FlywayModule\src\main\resources\db\migration
+    locations: filesystem:migration\src\main\resources\db\migration
     default-schema: migration_test
     schemas: migration_test
